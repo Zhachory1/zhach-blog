@@ -1,13 +1,22 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    builder (3.2.4)
     rack (2.2.3)
+    rdiscount (2.2.0.2)
+    toto (0.4.9)
+      builder
+      rack
+      rdiscount
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  builder
   rack
+  rdiscount
+  toto
 
 BUNDLED WITH
    1.17.2
